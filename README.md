@@ -12,9 +12,13 @@ Para crear ambientes virtuales lo mejor será ocupar el comando `pipenv`.
 `pipenv install [paquete]`: Instala el paquete "paquete" en el entorno virtual.
 
 - `pipenv`nos permite instalar una librería desde un repositorio WEB. Se hace de la siguiente manera:
-`pipenv install -e git+[ruta]`
+```
+pipenv install -e git+[ruta]
+```
 - En el ejempo de clases se hizo lo siguiente para instalar la librería `requests`:
-`pipenv install -e git+https://github.com/requests/requests.git#egg=requests`
+```
+pipenv install -e git+https://github.com/requests/requests.git#egg=requests`
+```
 
 `Pipfile`: Es un fichero que contiene los paquetes instalados por `pipenv`.
 `Pipfile.lock`: Fichero en formato JSON.
