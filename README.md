@@ -17,7 +17,7 @@ pipenv install -e git+[ruta]
 ```
 - En el ejempo de clases se hizo lo siguiente para instalar la librería `requests`:
 ```
-pipenv install -e git+https://github.com/requests/requests.git#egg=requests`
+pipenv install -e git+https://github.com/requests/requests.git#egg=requests
 ```
 
 `Pipfile`: Es un fichero que contiene los paquetes instalados por `pipenv`.
