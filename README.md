@@ -37,6 +37,7 @@ cp ../[carpeta fuente]/[archivo.extension] .
 
 - `pipenv install --ignore-pipfile`: Crea un proyecto utilizando `pipenv` leyendo/instalando las dependencias de `Pipfile.lock` de forma de reproducir todo el entorno que se expone en `Pipfile`.
 - `pipenv graph`: Muestra las dependencias que tengo (las librerías instaladas y la versión de éstas).
+- `pipenv uninstall [libreria]`: Elimina una librería.
 - `pipenv check`: Para ver si tengo una librería insegura o con fallos conocidos.
 - `pip list | grep -i [paquete]`: Esto me permite ver la versión de cualquier "paquete" que tengo instalado.
 
@@ -45,3 +46,5 @@ cp ../[carpeta fuente]/[archivo.extension] .
 1) Ir a la carpeta donde está el código. Se crea la carpeta en caso que no exista.
 2) Se tipea `pipenv shell`para crear el entorno virtual.
 3) Si se quieren instalar paquetes, se tipea `pip install [paquete]`.
+4) Si se hizo el apartado anterior, tipear `pip list` para ver todo lo instalado.
+5) Tipear `exit` si quiero salir.
