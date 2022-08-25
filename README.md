@@ -35,10 +35,10 @@ cp ../[carpeta fuente]/[archivo.extension] .
 ```
 -Del comando anterior recuerda que el ` . ` significa "en esta carpeta".
 
-`pipenv install --ignore-pipfile`: Crea un proyecto utilizando `pipenv` leyendo/instalando las dependencias de `Pipfile.lock` de forma de reproducir todo el entorno que se expone en `Pipfile`.
-`pipenv graph`: Muestra las dependencias que tengo.
-`pipenv check`: Para ver si tengo una librería insegura o con fallos conocidos.
-`pip list | grep -i [paquete]`: Esto me permite ver la versión de cualquier "paquete" que tengo instalado.
+- `pipenv install --ignore-pipfile`: Crea un proyecto utilizando `pipenv` leyendo/instalando las dependencias de `Pipfile.lock` de forma de reproducir todo el entorno que se expone en `Pipfile`.
+- `pipenv graph`: Muestra las dependencias que tengo.
+- `pipenv check`: Para ver si tengo una librería insegura o con fallos conocidos.
+- `pip list | grep -i [paquete]`: Esto me permite ver la versión de cualquier "paquete" que tengo instalado.
 
 # Flujo de Trabajo:
 
